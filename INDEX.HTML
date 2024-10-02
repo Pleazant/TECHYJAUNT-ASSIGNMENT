@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHYJAUNT ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MY FIRST WEBPAGE</h1>
+    </header>
+
+    <nav>
+        <a href="#content">Webpage Contents</a>
+        <a href="#info">Information Table</a>
+        <a href="#contact">Contact Form</a>
+    </nav>
+<br>
+    <img src="img/assignment.png" alt="">
+
+    <p>This is a sample paragraph describing the content of the webpage. It explains the purpose of the page and provides some basic information about what users can expect to find</p>
+<br>
+<!-- create a link to techyjaunt website -->
+
+<section id="content">
+    <h2>Webpage Contents</h2>
+
+    <ul>
+        <li>Introduction</li>
+        <li>Table Of Content</li>
+        <li>Contact Form</li>
+    </ul>
+</section>
+
+<section id="info">
+    <h2>Information Table</h2>
+    <table>
+        <tr>
+            <td>Item </td>
+            <td>Description</td>
+            <td>Quantity</td>  
+        </tr>
+
+        <tr>
+            <td>Pens</td>
+            <td>Blue Ink Pens</td> 
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>Notebooks</td>
+            <td>Spiral-bound Notebooks</td>    
+            <td>3</td>    
+        </tr>
+
+        <tr>
+            <td>Markers</td>
+            <td>Permanent Markers</td>    
+            <td>2</td>    
+        </tr>
+
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>    
+<br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+<br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+<br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+<br><br>
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" <p>Yes, I want to subscribe</p>
+
+        <label for="number">Number Of Items</label>
+        <input type="number" name="number" id="number" min="0" max="1000" step="10">
+<br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" placeholder="mm/dd/yyy">
+<br><br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" cols="20" rows="10" placeholder="Your message"></textarea>
+<br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</section>
+
+
+
+</body>
+</html>
