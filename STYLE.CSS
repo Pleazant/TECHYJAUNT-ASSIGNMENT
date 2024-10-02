@@ -3,3 +3,4 @@ table, tr, td, caption{
     border-collapse: collapse;
     padding: 0.5rem;
     gap: 10px;
+}
